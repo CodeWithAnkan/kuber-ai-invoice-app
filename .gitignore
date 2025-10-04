@@ -1,0 +1,41 @@
+# Backend
+backend/node_modules
+backend/.env
+backend/serviceAccountKey.json
+
+# Frontend
+frontend/invoice-reminder-app/node_modules
+frontend/invoice-reminder-app/.expo/
+frontend/invoice-reminder-app/dist/
+frontend/invoice-reminder-app/web-build/
+frontend/invoice-reminder-app/expo-env.d.ts
+
+# Frontend Native Build Folders
+frontend/invoice-reminder-app/ios
+frontend/invoice-reminder-app/android
+
+# Frontend Secrets
+frontend/invoice-reminder-app/google-services.json
+frontend/invoice-reminder-app/firebaseConfig.js
+frontend/invoice-reminder-app/.env*.local
+
+# Frontend Debug/Temp
+frontend/invoice-reminder-app/.metro-health-check*
+frontend/invoice-reminder-app/npm-debug.*
+frontend/invoice-reminder-app/yarn-debug.*
+frontend/invoice-reminder-app/yarn-error.*
+frontend/invoice-reminder-app/app-example
+
+# Frontend Native/Build Artifacts
+frontend/invoice-reminder-app/*.orig.*
+frontend/invoice-reminder-app/*.jks
+frontend/invoice-reminder-app/*.p8
+frontend/invoice-reminder-app/*.p12
+frontend/invoice-reminder-app/*.key
+frontend/invoice-reminder-app/*.mobileprovision
+frontend/invoice-reminder-app/*.tsbuildinfo
+frontend/invoice-reminder-app/.kotlin/
+
+# Operating System Files
+.DS_Store
+*.pem
