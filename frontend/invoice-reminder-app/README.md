@@ -62,4 +62,38 @@ cd kuberai/backend
 
 # Install dependencies
 npm install
-Create a .env file inside /backend:
+
+# Create a .env file inside /backend:
+GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+MONGO_URI="YOUR_MONGODB_CONNECTION_STRING"
+FIREBASE_SERVICE_ACCOUNT_BASE64="YOUR_BASE64_ENCODED_SERVICE_ACCOUNT_KEY"
+
+# Then run the server:
+npm start
+```
+
+### 📱 Frontend Setup
+
+```bash
+# Navigate to frontend
+cd ../frontend/invoice-reminder-app
+
+# Install dependencies
+npm install
+
+# Now add:
+# google-services.json → from Firebase (Android app config)
+# firebaseConfig.js → your Firebase Web configuration
+# Make sure to update backend URLs in:
+# index.tsx
+# analysis.tsx
+# notifications.js
+# Then start the app:
+npx expo start --dev-client
+```
+
+### 📜 License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+<div align="center"> <sub>💰 Built with ❤️ by <a href="https://github.com/CodeWithAnkan">Ankan</a></sub> </div>
