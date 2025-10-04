@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/images/icon.png" width="80" alt="KuberAI Logo">
+  <img src="frontend/invoice-reminder-app/assets/images/icon.png" width="80" alt="KuberAI Logo">
   <h1>KuberAI</h1>
   <p><strong>AI-Powered Invoice & Budget Manager</strong></p>
 </div>
