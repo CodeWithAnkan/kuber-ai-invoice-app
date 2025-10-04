@@ -1,6 +1,6 @@
 KuberAI - AI-Powered Invoice & Budget Manager
 <p align="center">
-<img src="assets/images/icon.png" alt="KuberAI Banner">
+<img src="assets/images/icon.png" style={width: 48px, height: 48px} alt="KuberAI Banner">
 </p>
 
 KuberAI is a full-stack, cross-platform mobile application built with React Native and Node.js that revolutionizes personal finance management. It leverages the power of Google's Gemini API to scan and understand invoices, provide intelligent financial analysis, and help users save money with smart, AI-driven insights.
